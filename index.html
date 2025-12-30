@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon -->
   <title>M Stores</title>
+  <link rel="icon" type="images/png" href="/images/favicon.png">
+  
 
   <!-- Bootstrap 5 -->
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -43,6 +46,7 @@
   height: 100%;
   max-width: 50%;
   object-fit: contain;
+  opacity: 0.7;
 }
 
     .hero img {
@@ -74,7 +78,6 @@
       border: none;
       border-radius: 14px;
       box-shadow: 0 8px 25px rgba(0,0,0,0.06);
-      transition: transform 0.2s;
     }
 
     .product-card:hover {
@@ -119,8 +122,8 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6 z-1">
-        <h2 class="display-5 fw-bold">Welcome to<br>M Stores</h2>
-        <p class="lead mt-3 fw-bold">Fresh groceries, household essentials and best prices every day.</p>
+        <h2 class="display-5 fw-bold">Welcome</h2>
+        <p class="lead mt-3">Fresh groceries, household essentials and best prices every day.</p>
        <!--<a href="#" class="btn btn-warning btn-lg mt-3">Shop Now</a>--> 
       </div>
       <div class="col-lg-6 text-right">
@@ -168,28 +171,28 @@
     <h2 class="section-title text-center mb-5">Our Featured Products</h2>
 
     <div class="row g-4">
-      <div class="col-md-3">
+      <div class="col-md-3 mb-4">
         <div class="card product-card text-center p-3">
-          <img src="images/stationary.jpg" class="img-fluid mb-3" alt="Bread">
+          <img src="images/stationary.jpg" class="img-fluid mb-3" style="height:150px; object-fit:cover;"alt="Bread">
           <h6>Stationary</h6>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 mb-4">
         <div class="card product-card text-center p-3">
-          <img src="images/greocery.jpg" class="img-fluid mb-3" alt="grocery">
+          <img src="images/greocery.jpg" class="img-fluid mb-3" style="height:150px; object-fit:cover;" alt="grocery">
           <h6>Grocery</h6>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 mb-4 mb-4">
         <div class="card product-card text-center p-3">
-          <img src="images/vegitables.png" class="img-fluid mb-3" alt="Vegetables">
-          <h6>Fresh Vegetables</h6>
+          <img src="images/vegitables.png" class="img-fluid mb-3"  style="height:150px; object-fit:cover;" alt="Vegetables">
+          <h6>Vegetables</h6>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 mb-4">
         <div class="card product-card text-center p-3">
-          <img src="images/diary.jpg" class="img-fluid mb-3"  alt="diary">
-          <h6>Quality Dairy</h6>
+          <img src="images/diary.jpg" class="img-fluid mb-3" style="height:150px; object-fit:cover;" alt="diary">
+          <h6>Dairy</h6>
         </div>
       </div>
     </div>
